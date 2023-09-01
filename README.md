@@ -15,6 +15,12 @@ aws cloudformation create-stack --stack-name udacity-udagram \
     --region us-east-1 \
     --capabilities CAPABILITY_IAM
 
+or use the file create.sh
+./create.sh udacity-network network.yml network-parameters.json
+
+note: use the file delete.sh to delete stack
+./delete.sh udacity-network
+
 3. Infrastructure Diagram
 ![Alt text](image-2.png)
 
